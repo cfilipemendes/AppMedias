@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MediasApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="obter_resultados">Consultar Médias</string>
+    <string name="listar_cadeiras">Consultar Cadeiras</string>
+    <string name="editar_cadeiras">Adicionar Cadeira</string>
+    <string name="title_activity_criar_cadeira">CriarCadeiraActivity</string>
+    <string name="name_input">Cadeira:</string>
+    <string name="credits_input">ECTS:</string>
+    <string name="anos_input">Ano:</string>
+    <string name="value_input">Nota:</string>
+    <string name="save">Guardar</string>
+    <string name="writeSuccess">Adicionado com Sucesso.</string>
+    <string name="writeFail">Não Adicionado, Verifique o Input</string>
+    <string name="listasCadeiras">As Tuas Cadeiras:</string>
+    <string name="medA">Média Aritmética: </string>
+    <string name="medP">Média Ponderada: </string>
+    <string name="cadeirasCompletas">ECTS completos:</string>
+    <string name="writeSuccessUpdate">Mudança guardada com êxito.</string>
+    <string name="writeFailUpdate">Falhou, verifique o input.</string>
+    <string name="show_primeiro">Média 1º Ano:</string>
+    <string name="show_segundo">Média 2º Ano:</string>
+    <string name="show_terceiro">Média 3º Ano:</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cesarmendes.mediasapp.Fragments.ListaCadeirasFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nome"
+        android:layout_weight=".20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="@string/name_input"/>
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/credits_input"/>
+
+    <TextView
+        android:id="@+id/ano"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/anos_input"/>
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_weight=".20"
+        android:textSize="17dp"
+        android:layout_width="0dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/value_input"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/listaCadd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
